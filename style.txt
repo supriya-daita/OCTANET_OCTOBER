@@ -124,7 +124,7 @@ nav .menubtn{
   color: #e2725b;
 }
 .s3{
-  background-image: url("https://miro.medium.com/max/5862/1*4uW8LXe3EcH_JRiXVGW52A.jpeg");
+  background-image: url("https://github.com/supriya-daita/OCTANET_OCTOBER/blob/5e40e0c82030fe5988b930d3d7e9662bdb537e93/bg.jpg");
 }
 .row{
   display: flex;
