@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:white ;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Fira Sans', sans-serif;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 5%;
+}
+nav .logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: #f5f5dc;
+  margin-right: 570px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li{
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+nav ul li a{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav .navLinks button{
+  padding: 2px 20px;
+  border-radius: 10px;
+  color: blue;
+  font-size: 16px;
+  border-style: none;
+  font-weight: 700;
+  margin-left: 10px;
+}
+nav ul li:hover{
+  background-color:#cb4154 ;
+}
+nav .menubtn{
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}
+.s4{
+  margin-left: 80px;
+}
+ 
+/* responsive navbar css */
+@media screen and (max-width: 600px) {
+  nav .menubtn{
+    display: flex;
+  }
+  nav .navLinks{
+    display: none;
+  }
+  .sideNav {
+    display: block !important;
+  }
+}
+ 
+.sideNav{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  background-color: rgb(44, 1, 197);
+  overflow-x: hidden;
+  transition: 0.3s ease-in;
+  padding-top: 60px;
+  display: none;
+}
+ 
+.sideNav a{
+  padding: 8px 8px 8px 40px;
+  display: block;
+  font-size: 25px;
+  font-weight: 500;
+  color: #d1d1d1;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.sideNav a button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: blue;
+  font-size: 16px;
+  border-style: none;
+  font-weight: 700;
+}
+.sideNav a:hover{
+  color: white;
+}
+.sideNav .closeBtn{
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.s1{
+  padding-left: 12px;
+  color: #e2725b;
+}
+.s2{
+  padding-top: 100px;
+  padding-right: 30px;
+}
+.c1{
+  color: #e2725b;
+}
+.s3{
+  background-image: url("https://miro.medium.com/max/5862/1*4uW8LXe3EcH_JRiXVGW52A.jpeg");
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 5%;
+}
+.row  {
+  padding-right: 50px;
+}
+.column1 button {
+  width: 150px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border-style: none;
+  color: orangered;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* Header content responsive */
+@media screen and (max-width: 980px) {
+  .row {
+    margin-top: 80px;
+  }
+}
+ 
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+ 
+  }
+  .row  {
+    padding: 30px;
+  }
+}
