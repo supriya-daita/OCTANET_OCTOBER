@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Restaurant Landing Page</title>
+</head>
+
+<body class = "s3">
+ <nav>
+  <span><img src="https://cdn.glitch.global/98c6cb2f-99a3-44cc-bf72-33a8b8d70db9/letter-f.png?v=1696606780071" height="50px" width="50px"></span>
+   <div class="logo">Flavours Of India</div>
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">HOME</a></li>
+       <li><a href="Menu.html">MENU</a></li>
+       <li><a href="#">ABOUT</a></li>
+       <li><a href="#">CONTACT</a></li>
+       <li><a href="#">LOGIN</a></li>
+     </ul>
+   </div>
+ </nav>
+   <div class="row">
+     <div class="column1"><br><br><br>
+       <h1 class="c1">RECEIVE HAPPINESS</h1>
+       <h2 class="s1">with every Delicious order!<h2><br>
+       <p class="s4"><a href="#"><button>ORDER NOW</button></a></p><br><br><br><br><br><br><br><br><br><br>
+       <p class="s1">Flat 50% off on</p>
+       <p class="s1">orders above 500&#x20B9;</p>
+     </div>
+   </div>
+</body>
+</html>
