@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.txt">
   <title>Restaurant Landing Page</title>
 </head>
 
 <body class = "s3">
  <nav>
-  <span><img src="https://cdn.glitch.global/98c6cb2f-99a3-44cc-bf72-33a8b8d70db9/letter-f.png?v=1696606780071" height="50px" width="50px"></span>
+  <span><img src="https://github.com/supriya-daita/OCTANET_OCTOBER/blob/182eb159674e061bf5c662eceab0a400f5a13f5f/letter-f.png" height="50px" width="50px"></span>
    <div class="logo">Flavours Of India</div>
    <div class="navLinks">
      <ul>
